@@ -59,7 +59,7 @@ for doc in collection.find().sort("_id", -1).limit(5):
     st.write("---")
 
 
-'''MONGO_URI = "mongodb+srv://shrustimtimmanagoudar_db_user:4S3upgTvGlXr04tB@cluster0.buy7nvy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+'''
 client = MongoClient(MONGO_URI)
 db = client["duckduckgo_agent_db"]
 collection = db["queries"]
