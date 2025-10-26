@@ -1,0 +1,14 @@
+[project]
+name = "langchain-agent-multimodal"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.12"
+
+[tool.uv.dependencies]
+main = [
+    "streamlit",
+    "pymongo",
+    "langchain",
+    "python-dotenv",
+    "argparse"
+]
